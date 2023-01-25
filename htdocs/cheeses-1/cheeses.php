@@ -23,4 +23,4 @@ function price($cheese)
     return "$" . number_format($cheese['cost'], 2);
 }
 
-require 'cheeses.view.php';
+require 'views/cheeses.view.php';

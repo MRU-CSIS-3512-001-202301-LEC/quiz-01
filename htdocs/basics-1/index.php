@@ -52,7 +52,7 @@ $answer_0 = $p1_score * $orders["873"]["cans"];
 
 $answer_1 = num_blorbs($name) > $p1_score;
 
-$answer_2 = "Ms. " . $name;
+$answer_2 = "Ms. " . $orders["044"]["customer_name"];
 
 $answer_2_5 = "{$p1_score}$p1_score";
 

@@ -6,7 +6,7 @@
 </head>
 
 <body>
-    <?php require 'cheeselist.php'; ?>
+    <?php require 'partials/cheeselist.php'; ?>
 </body>
 
 </html>
