@@ -47,19 +47,3 @@ if (!$is_activated) {
 } else {
     $status = "online";
 }
-
-$answer_0 = $p1_score * $orders["873"]["cans"];
-
-$answer_1 = num_blorbs($name) > $p1_score;
-
-$answer_2 = "Ms. " . $orders["044"]["customer_name"];
-
-$answer_2_5 = "{$p1_score}$p1_score";
-
-$answer_3 = $orders["044"]["customer_name"];
-
-$answer_4 = $status;
-
-$answer_5 = $name === "DOOMCAT" ? "-1" : 1;
-
-echo "foo";
